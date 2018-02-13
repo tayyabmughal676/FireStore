@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                 mTexTEdit.error = "Enter value"
                 return@setOnClickListener
             }
-//            Toast.makeText(this , " Hello " + name  , Toast.LENGTH_SHORT).show()
+
 
             val userMap = HashMap<String , Any>()
 
@@ -51,6 +51,8 @@ class MainActivity : AppCompatActivity() {
 
                 if(task.isSuccessful){
                     Toast.makeText(applicationContext , " Successfully" , Toast.LENGTH_LONG).show()
+                    print("Hello")
+
                 }
             }
         }
