@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
                 if(task.isSuccessful){
                     Toast.makeText(applicationContext , " Successfully" , Toast.LENGTH_LONG).show()
                     print("Hello")
-                    Toast.makeText(applicationContext, " Hello BitBucket" , Toast.LENGTH_LONG).show()
+//                    Toast.makeText(applicationContext, " Hello BitBucket" , Toast.LENGTH_LONG).show()
 
                 }
             }
